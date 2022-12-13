@@ -10,7 +10,7 @@
     <!-- Define your beans here -->
     <!--Configuration of Spring Beans-->
     <bean id="myCoach"
-          class="com.example.demo.TrackCoach">
+          class="com.example.demo.SwimmingCoach">
     </bean>
 </beans>
 
