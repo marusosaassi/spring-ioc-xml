@@ -17,9 +17,9 @@
 
 
     <bean id="myCoach"
-          class="com.example.demo.SwimmingCoach">
+          class="com.example.demo.TrackCoach">
         <!--set up constructor injection-->
-        <constructor-arg ref="myFortune"/>
+        <constructor-arg ref="myFortune" />
     </bean>
 </beans>
 
