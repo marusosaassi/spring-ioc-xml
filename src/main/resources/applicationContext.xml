@@ -21,6 +21,13 @@
         <!--set up constructor injection-->
         <constructor-arg ref="myFortune" />
     </bean>
+
+    <bean id="myCricketCoach"
+          class="com.example.demo.CricketCoach">
+        <!-- set up setter injection -->
+        <property name="fortuneService" ref="myFortune"/>
+        <!--the ref should be the same as bean id-->
+    </bean>
 </beans>
 
 
