@@ -18,7 +18,8 @@
 
     <bean id="myCoach"
           class="com.example.demo.TrackCoach"
-          scope="prototype">
+            init-method="doMyStartUpStuff"
+            destroy-method="doMyCleanUpStuff">
         <!--set up constructor injection-->
         <constructor-arg ref="myFortune" />
     </bean>
